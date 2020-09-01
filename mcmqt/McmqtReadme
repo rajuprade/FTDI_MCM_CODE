@@ -1,0 +1,52 @@
+************************************************************************************
+*
+* ReadMe file for mcmqt installation
+* Laurent Pommier, 23/03/2006
+*
+************************************************************************************
+
+Mcmqt program is documented in mcmcom.sxw report. 
+This ReadMe file details the installation of mcmqt program under a Linux PC.
+
+
+PREVIOUS REQUIREMENTS
+- A RS 232-485 converter card must be connected on the PC serial port.
+- mcmdriver must be loaded on the proper serial port.
+- QT designer must be installed in the Linux PC.
+
+
+INSTALLATION
+- make a directory mcmqt/
+- copy the source code in mcmqt 
+- compile the code with qmake (rm Makefile if already existing), and make,
+mcmcom executable is created
+- copy mcmcom in /usr/bin/ and change its permissions with
+	chmod u+s /usr/bin/mcmcom
+After this, any user can call this program with mcmcom command.
+
+
+NOTE:
+Modification can required between QT designer versions. The code was developped under 
+QT 3.1.1. For QT 3.0.3, further steps were needed:
+
+1) In QT, mcmCom.ui.h shows a different file with nothing inside functions.
+Open mcmCom.ui.h with another text editor (like Nedit), the original file appears.
+Copy the original file and paste it inside QT mcmCom.ui.h file.
+Save.
+
+2) 'qmake mcmcom.pro' fails since there is no /images/ directory.
+In QT, remove the file main.cpp from the project.
+Then create a new one with File > New > cpp Main-File (Main Form mcmCOM).
+Save, and from shell retype 
+	qmake mcmcom.pro
+
+3) 'make' returns an error in .moc/moc-mcmCom.cpp, line 169.
+Replace		*((char[8*)static_QUType_ptr.get(_o+4))
+by		(char[8])static_QUType_ptr.get(_o+4)
+Save and retry make.
+
+4) In this QT, there is no Monospace format for DDEdit applet (bottom right).
+Change it to Nimbus Mono 14. Resize, save and recompile with make.
+*************************************************************************************
+ 
+

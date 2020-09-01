@@ -1,0 +1,1779 @@
+<!DOCTYPE UI><UI version="3.1" stdsetdef="1">
+<class>mcmCOM</class>
+<widget class="QMainWindow">
+    <property name="name">
+        <cstring>mcmCOM</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>888</width>
+            <height>632</height>
+        </rect>
+    </property>
+    <property name="palette">
+        <palette>
+            <active>
+                <color>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                </color>
+                <color>
+                    <red>230</red>
+                    <green>230</green>
+                    <blue>230</blue>
+                </color>
+                <color>
+                    <red>255</red>
+                    <green>255</green>
+                    <blue>255</blue>
+                </color>
+                <color>
+                    <red>253</red>
+                    <green>253</green>
+                    <blue>253</blue>
+                </color>
+                <color>
+                    <red>206</red>
+                    <green>206</green>
+                    <blue>206</blue>
+                </color>
+                <color>
+                    <red>191</red>
+                    <green>191</green>
+                    <blue>191</blue>
+                </color>
+                <color>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                </color>
+                <color>
+                    <red>250</red>
+                    <green>250</green>
+                    <blue>250</blue>
+                </color>
+                <color>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                </color>
+                <color>
+                    <red>255</red>
+                    <green>255</green>
+                    <blue>255</blue>
+                </color>
+                <color>
+                    <red>230</red>
+                    <green>230</green>
+                    <blue>230</blue>
+                </color>
+                <color>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                </color>
+                <color>
+                    <red>68</red>
+                    <green>100</green>
+                    <blue>172</blue>
+                </color>
+                <color>
+                    <red>255</red>
+                    <green>255</green>
+                    <blue>255</blue>
+                </color>
+                <color>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>255</blue>
+                </color>
+                <color>
+                    <red>255</red>
+                    <green>0</green>
+                    <blue>255</blue>
+                </color>
+            </active>
+            <disabled>
+                <color>
+                    <red>128</red>
+                    <green>128</green>
+                    <blue>128</blue>
+                </color>
+                <color>
+                    <red>230</red>
+                    <green>230</green>
+                    <blue>230</blue>
+                </color>
+                <color>
+                    <red>250</red>
+                    <green>250</green>
+                    <blue>250</blue>
+                </color>
+                <color>
+                    <red>253</red>
+                    <green>253</green>
+                    <blue>253</blue>
+                </color>
+                <color>
+                    <red>143</red>
+                    <green>143</green>
+                    <blue>143</blue>
+                </color>
+                <color>
+                    <red>191</red>
+                    <green>191</green>
+                    <blue>191</blue>
+                </color>
+                <color>
+                    <red>191</red>
+                    <green>191</green>
+                    <blue>191</blue>
+                </color>
+                <color>
+                    <red>250</red>
+                    <green>250</green>
+                    <blue>250</blue>
+                </color>
+                <color>
+                    <red>128</red>
+                    <green>128</green>
+                    <blue>128</blue>
+                </color>
+                <color>
+                    <red>255</red>
+                    <green>255</green>
+                    <blue>255</blue>
+                </color>
+                <color>
+                    <red>230</red>
+                    <green>230</green>
+                    <blue>230</blue>
+                </color>
+                <color>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                </color>
+                <color>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>128</blue>
+                </color>
+                <color>
+                    <red>255</red>
+                    <green>255</green>
+                    <blue>255</blue>
+                </color>
+                <color>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>255</blue>
+                </color>
+                <color>
+                    <red>255</red>
+                    <green>0</green>
+                    <blue>255</blue>
+                </color>
+            </disabled>
+            <inactive>
+                <color>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                </color>
+                <color>
+                    <red>230</red>
+                    <green>230</green>
+                    <blue>230</blue>
+                </color>
+                <color>
+                    <red>250</red>
+                    <green>250</green>
+                    <blue>250</blue>
+                </color>
+                <color>
+                    <red>253</red>
+                    <green>253</green>
+                    <blue>253</blue>
+                </color>
+                <color>
+                    <red>143</red>
+                    <green>143</green>
+                    <blue>143</blue>
+                </color>
+                <color>
+                    <red>191</red>
+                    <green>191</green>
+                    <blue>191</blue>
+                </color>
+                <color>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                </color>
+                <color>
+                    <red>250</red>
+                    <green>250</green>
+                    <blue>250</blue>
+                </color>
+                <color>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                </color>
+                <color>
+                    <red>255</red>
+                    <green>255</green>
+                    <blue>255</blue>
+                </color>
+                <color>
+                    <red>230</red>
+                    <green>230</green>
+                    <blue>230</blue>
+                </color>
+                <color>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                </color>
+                <color>
+                    <red>94</red>
+                    <green>122</green>
+                    <blue>183</blue>
+                </color>
+                <color>
+                    <red>255</red>
+                    <green>255</green>
+                    <blue>255</blue>
+                </color>
+                <color>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>255</blue>
+                </color>
+                <color>
+                    <red>255</red>
+                    <green>0</green>
+                    <blue>255</blue>
+                </color>
+            </inactive>
+        </palette>
+    </property>
+    <property name="caption">
+        <string>MCM Communication</string>
+    </property>
+    <property name="iconText">
+        <string>Cmd to exec</string>
+    </property>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>Title</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>290</x>
+                <y>20</y>
+                <width>360</width>
+                <height>23</height>
+            </rect>
+        </property>
+        <property name="font">
+            <font>
+                <pointsize>14</pointsize>
+                <bold>1</bold>
+            </font>
+        </property>
+        <property name="frameShape">
+            <enum>NoFrame</enum>
+        </property>
+        <property name="frameShadow">
+            <enum>Plain</enum>
+        </property>
+        <property name="text">
+            <string>MCM Serial Communication</string>
+        </property>
+        <property name="alignment">
+            <set>AlignCenter</set>
+        </property>
+    </widget>
+    <widget class="QPushButton">
+        <property name="name">
+            <cstring>ExitButton</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>750</x>
+                <y>300</y>
+                <width>90</width>
+                <height>30</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string>Exit</string>
+        </property>
+    </widget>
+    <widget class="QGroupBox">
+        <property name="name">
+            <cstring>Connection_box</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>710</x>
+                <y>50</y>
+                <width>160</width>
+                <height>110</height>
+            </rect>
+        </property>
+        <property name="title">
+            <string>PC serial port (default 1)</string>
+        </property>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>OpenButton</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>20</x>
+                    <y>30</y>
+                    <width>80</width>
+                    <height>30</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>Open Port:</string>
+            </property>
+            <property name="toggleButton">
+                <bool>false</bool>
+            </property>
+        </widget>
+        <widget class="QLineEdit">
+            <property name="name">
+                <cstring>PortEdit</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>120</x>
+                    <y>29</y>
+                    <width>21</width>
+                    <height>31</height>
+                </rect>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>CloseButton</cstring>
+            </property>
+            <property name="enabled">
+                <bool>false</bool>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>21</x>
+                    <y>67</y>
+                    <width>120</width>
+                    <height>30</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>Close Port</string>
+            </property>
+            <property name="toggleButton">
+                <bool>false</bool>
+            </property>
+        </widget>
+    </widget>
+    <widget class="QGroupBox">
+        <property name="name">
+            <cstring>PollingBox</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>720</x>
+                <y>180</y>
+                <width>140</width>
+                <height>100</height>
+            </rect>
+        </property>
+        <property name="title">
+            <string>Connected MCMs</string>
+        </property>
+        <widget class="QLineEdit">
+            <property name="name">
+                <cstring>PollEdit</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>20</x>
+                    <y>30</y>
+                    <width>100</width>
+                    <height>23</height>
+                </rect>
+            </property>
+            <property name="paletteBackgroundColor">
+                <color>
+                    <red>230</red>
+                    <green>230</green>
+                    <blue>230</blue>
+                </color>
+            </property>
+            <property name="alignment">
+                <set>AlignAuto</set>
+            </property>
+            <property name="edited">
+                <bool>true</bool>
+            </property>
+            <property name="readOnly">
+                <bool>true</bool>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>PollButton</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>20</x>
+                    <y>70</y>
+                    <width>100</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>Poll</string>
+            </property>
+            <property name="toggleButton">
+                <bool>false</bool>
+            </property>
+        </widget>
+    </widget>
+    <widget class="QGroupBox">
+        <property name="name">
+            <cstring>ReadMcm</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>30</x>
+                <y>340</y>
+                <width>840</width>
+                <height>270</height>
+            </rect>
+        </property>
+        <property name="title">
+            <string>MCM Answers</string>
+        </property>
+        <widget class="QLabel">
+            <property name="name">
+                <cstring>CmdReceived</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>21</x>
+                    <y>54</y>
+                    <width>125</width>
+                    <height>23</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>Command Received:</string>
+            </property>
+        </widget>
+        <widget class="QLabel">
+            <property name="name">
+                <cstring>AnlMask</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>21</x>
+                    <y>131</y>
+                    <width>90</width>
+                    <height>23</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>Analog Mask:</string>
+            </property>
+        </widget>
+        <widget class="QLabel">
+            <property name="name">
+                <cstring>DigMask</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>21</x>
+                    <y>101</y>
+                    <width>90</width>
+                    <height>23</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>Digital Mask:</string>
+            </property>
+        </widget>
+        <widget class="QLabel">
+            <property name="name">
+                <cstring>ScanData</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>21</x>
+                    <y>161</y>
+                    <width>90</width>
+                    <height>23</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>Scanned Data:</string>
+            </property>
+        </widget>
+        <widget class="QLabel">
+            <property name="name">
+                <cstring>CmdStatus</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>21</x>
+                    <y>23</y>
+                    <width>125</width>
+                    <height>23</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>Command Status:</string>
+            </property>
+        </widget>
+        <widget class="QFrame">
+            <property name="name">
+                <cstring>frame10</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>600</x>
+                    <y>30</y>
+                    <width>191</width>
+                    <height>101</height>
+                </rect>
+            </property>
+            <property name="frameShape">
+                <enum>StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+                <enum>Sunken</enum>
+            </property>
+            <widget class="QLabel">
+                <property name="name">
+                    <cstring>Mode</cstring>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>11</x>
+                        <y>42</y>
+                        <width>43</width>
+                        <height>23</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Mode:</string>
+                </property>
+            </widget>
+            <widget class="QLineEdit">
+                <property name="name">
+                    <cstring>McmAddr2Edit</cstring>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>108</x>
+                        <y>12</y>
+                        <width>71</width>
+                        <height>23</height>
+                    </rect>
+                </property>
+                <property name="paletteBackgroundColor">
+                    <color>
+                        <red>230</red>
+                        <green>230</green>
+                        <blue>230</blue>
+                    </color>
+                </property>
+                <property name="readOnly">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QLineEdit">
+                <property name="name">
+                    <cstring>ModEdit</cstring>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>60</x>
+                        <y>42</y>
+                        <width>119</width>
+                        <height>23</height>
+                    </rect>
+                </property>
+                <property name="paletteBackgroundColor">
+                    <color>
+                        <red>230</red>
+                        <green>230</green>
+                        <blue>230</blue>
+                    </color>
+                </property>
+                <property name="readOnly">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QLabel">
+                <property name="name">
+                    <cstring>McmAddr2</cstring>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>11</x>
+                        <y>12</y>
+                        <width>91</width>
+                        <height>23</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>MCM Address:</string>
+                </property>
+            </widget>
+            <widget class="QLineEdit">
+                <property name="name">
+                    <cstring>VersEdit</cstring>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>108</x>
+                        <y>72</y>
+                        <width>71</width>
+                        <height>23</height>
+                    </rect>
+                </property>
+                <property name="paletteBackgroundColor">
+                    <color>
+                        <red>230</red>
+                        <green>230</green>
+                        <blue>230</blue>
+                    </color>
+                </property>
+                <property name="readOnly">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QLabel">
+                <property name="name">
+                    <cstring>Version</cstring>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>11</x>
+                        <y>72</y>
+                        <width>91</width>
+                        <height>23</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Version:</string>
+                </property>
+            </widget>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>ClearButton</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>20</x>
+                    <y>240</y>
+                    <width>110</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>Clear Ans</string>
+            </property>
+        </widget>
+        <widget class="QCheckBox">
+            <property name="name">
+                <cstring>DisplayButton</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>520</x>
+                    <y>140</y>
+                    <width>200</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>Display all data (1 line / MUX):</string>
+            </property>
+        </widget>
+        <widget class="QTextEdit">
+            <property name="name">
+                <cstring>ScanDataEdit</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>118</x>
+                    <y>160</y>
+                    <width>280</width>
+                    <height>68</height>
+                </rect>
+            </property>
+            <property name="paletteBackgroundColor">
+                <color>
+                    <red>230</red>
+                    <green>230</green>
+                    <blue>230</blue>
+                </color>
+            </property>
+            <property name="vScrollBarMode">
+                <enum>AlwaysOn</enum>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="readOnly">
+                <bool>true</bool>
+            </property>
+        </widget>
+        <widget class="QTextEdit">
+            <property name="name">
+                <cstring>DDEdit</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>420</x>
+                    <y>170</y>
+                    <width>410</width>
+                    <height>80</height>
+                </rect>
+            </property>
+            <property name="paletteBackgroundColor">
+                <color>
+                    <red>230</red>
+                    <green>230</green>
+                    <blue>230</blue>
+                </color>
+            </property>
+            <property name="font">
+                <font>
+                    <family>Monospace</family>
+                </font>
+            </property>
+            <property name="dragAutoScroll">
+                <bool>true</bool>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="readOnly">
+                <bool>true</bool>
+            </property>
+        </widget>
+        <widget class="QLineEdit">
+            <property name="name">
+                <cstring>CmdSttusEdit</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>152</x>
+                    <y>23</y>
+                    <width>210</width>
+                    <height>23</height>
+                </rect>
+            </property>
+            <property name="paletteBackgroundColor">
+                <color>
+                    <red>230</red>
+                    <green>230</green>
+                    <blue>230</blue>
+                </color>
+            </property>
+            <property name="frameShape">
+                <enum>LineEditPanel</enum>
+            </property>
+            <property name="readOnly">
+                <bool>true</bool>
+            </property>
+        </widget>
+        <widget class="QLineEdit">
+            <property name="name">
+                <cstring>CmdRxEdit</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>152</x>
+                    <y>54</y>
+                    <width>210</width>
+                    <height>23</height>
+                </rect>
+            </property>
+            <property name="paletteBackgroundColor">
+                <color>
+                    <red>230</red>
+                    <green>230</green>
+                    <blue>230</blue>
+                </color>
+            </property>
+            <property name="readOnly">
+                <bool>true</bool>
+            </property>
+        </widget>
+        <widget class="QLineEdit">
+            <property name="name">
+                <cstring>CountEdit</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>499</x>
+                    <y>31</y>
+                    <width>50</width>
+                    <height>23</height>
+                </rect>
+            </property>
+            <property name="paletteBackgroundColor">
+                <color>
+                    <red>230</red>
+                    <green>230</green>
+                    <blue>230</blue>
+                </color>
+            </property>
+            <property name="readOnly">
+                <bool>true</bool>
+            </property>
+        </widget>
+        <widget class="QLabel">
+            <property name="name">
+                <cstring>Counter</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>411</x>
+                    <y>31</y>
+                    <width>80</width>
+                    <height>23</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>Ans Counter:</string>
+            </property>
+        </widget>
+        <widget class="QLabel">
+            <property name="name">
+                <cstring>AvgFact</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>411</x>
+                    <y>70</y>
+                    <width>103</width>
+                    <height>23</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>Averaging factor:</string>
+            </property>
+        </widget>
+        <widget class="QLineEdit">
+            <property name="name">
+                <cstring>AvgfactEdit</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>520</x>
+                    <y>70</y>
+                    <width>29</width>
+                    <height>23</height>
+                </rect>
+            </property>
+            <property name="paletteBackgroundColor">
+                <color>
+                    <red>230</red>
+                    <green>230</green>
+                    <blue>230</blue>
+                </color>
+            </property>
+            <property name="frameShape">
+                <enum>LineEditPanel</enum>
+            </property>
+            <property name="readOnly">
+                <bool>true</bool>
+            </property>
+        </widget>
+        <widget class="QLineEdit">
+            <property name="name">
+                <cstring>DigMaskEdit</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>118</x>
+                    <y>102</y>
+                    <width>160</width>
+                    <height>23</height>
+                </rect>
+            </property>
+            <property name="paletteBackgroundColor">
+                <color>
+                    <red>230</red>
+                    <green>230</green>
+                    <blue>230</blue>
+                </color>
+            </property>
+            <property name="readOnly">
+                <bool>true</bool>
+            </property>
+        </widget>
+        <widget class="QLineEdit">
+            <property name="name">
+                <cstring>AnMaskEdit</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>118</x>
+                    <y>131</y>
+                    <width>160</width>
+                    <height>23</height>
+                </rect>
+            </property>
+            <property name="paletteBackgroundColor">
+                <color>
+                    <red>230</red>
+                    <green>230</green>
+                    <blue>230</blue>
+                </color>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="readOnly">
+                <bool>true</bool>
+            </property>
+        </widget>
+    </widget>
+    <widget class="QTabWidget">
+        <property name="name">
+            <cstring>CmdTab</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>30</x>
+                <y>60</y>
+                <width>660</width>
+                <height>270</height>
+            </rect>
+        </property>
+        <widget class="QWidget">
+            <property name="name">
+                <cstring>tab</cstring>
+            </property>
+            <attribute name="title">
+                <string>Basic Commands</string>
+            </attribute>
+            <widget class="QListBox">
+                <property name="name">
+                    <cstring>CmdList</cstring>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>330</x>
+                        <y>20</y>
+                        <width>300</width>
+                        <height>100</height>
+                    </rect>
+                </property>
+                <property name="vScrollBarMode">
+                    <enum>AlwaysOn</enum>
+                </property>
+                <property name="hScrollBarMode">
+                    <enum>AlwaysOff</enum>
+                </property>
+            </widget>
+            <widget class="QPushButton">
+                <property name="name">
+                    <cstring>InsertButton</cstring>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>218</x>
+                        <y>45</y>
+                        <width>76</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>-&gt;</string>
+                </property>
+            </widget>
+            <widget class="QPushButton">
+                <property name="name">
+                    <cstring>RemoveButton</cstring>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>218</x>
+                        <y>81</y>
+                        <width>76</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>&lt;-</string>
+                </property>
+            </widget>
+            <widget class="QPushButton">
+                <property name="name">
+                    <cstring>ClearListButton</cstring>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>218</x>
+                        <y>127</y>
+                        <width>76</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Clear List</string>
+                </property>
+            </widget>
+            <widget class="QLabel">
+                <property name="name">
+                    <cstring>MaskTitle</cstring>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>190</y>
+                        <width>102</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Cmd Parameters:</string>
+                </property>
+                <property name="alignment">
+                    <set>AlignVCenter|AlignLeft</set>
+                </property>
+            </widget>
+            <widget class="QLineEdit">
+                <property name="name">
+                    <cstring>Argument1</cstring>
+                </property>
+                <property name="enabled">
+                    <bool>false</bool>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>130</x>
+                        <y>190</y>
+                        <width>200</width>
+                        <height>25</height>
+                    </rect>
+                </property>
+                <property name="sizePolicy">
+                    <sizepolicy>
+                        <hsizetype>0</hsizetype>
+                        <vsizetype>0</vsizetype>
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                    </sizepolicy>
+                </property>
+                <property name="text">
+                    <string></string>
+                </property>
+                <property name="maxLength">
+                    <number>24</number>
+                </property>
+            </widget>
+            <widget class="QPushButton">
+                <property name="name">
+                    <cstring>WriteButton</cstring>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>380</x>
+                        <y>190</y>
+                        <width>120</width>
+                        <height>30</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Write</string>
+                </property>
+            </widget>
+            <widget class="QPushButton">
+                <property name="name">
+                    <cstring>StopButton</cstring>
+                </property>
+                <property name="enabled">
+                    <bool>false</bool>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>520</x>
+                        <y>190</y>
+                        <width>110</width>
+                        <height>30</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Stop</string>
+                </property>
+            </widget>
+            <widget class="QCheckBox">
+                <property name="name">
+                    <cstring>RepeatButton</cstring>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>510</x>
+                        <y>140</y>
+                        <width>140</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Repeat Commands</string>
+                </property>
+            </widget>
+            <widget class="QLabel">
+                <property name="name">
+                    <cstring>delaylabel</cstring>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>330</x>
+                        <y>140</y>
+                        <width>96</width>
+                        <height>33</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Inter-Cmd delay:
+(ms, default 0)</string>
+                </property>
+                <property name="alignment">
+                    <set>AlignVCenter|AlignLeft</set>
+                </property>
+            </widget>
+            <widget class="QLineEdit">
+                <property name="name">
+                    <cstring>DelayEdit1</cstring>
+                </property>
+                <property name="enabled">
+                    <bool>true</bool>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>430</x>
+                        <y>140</y>
+                        <width>50</width>
+                        <height>23</height>
+                    </rect>
+                </property>
+                <property name="sizePolicy">
+                    <sizepolicy>
+                        <hsizetype>0</hsizetype>
+                        <vsizetype>0</vsizetype>
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                    </sizepolicy>
+                </property>
+                <property name="text">
+                    <string></string>
+                </property>
+            </widget>
+            <widget class="QListBox">
+                <item>
+                    <property name="text">
+                        <string>Set Mcm Addr</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Null Cmd</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Set Idle Mode</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Set Scan Mode</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Set Mean Mode</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Set Anl Mask</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Set Dig Mask 16b </string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Set Dig Mask 32b </string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Set Dig Mask 64b</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Read Anl Mask</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Read Dig Mask 16b</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Read Dig Mask 32b</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Read Dig Mask 64b</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Read Version</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Read Mode</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Reboot</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Feed Cntrl (old) </string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Feed Cntrl (new) </string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Fe Box Monitor </string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Common Box Monitor</string>
+                    </property>
+                </item>
+                <property name="name">
+                    <cstring>CmdAvaiList</cstring>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>20</y>
+                        <width>170</width>
+                        <height>100</height>
+                    </rect>
+                </property>
+            </widget>
+            <widget class="QLabel">
+                <property name="name">
+                    <cstring>McmAddr</cstring>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>150</y>
+                        <width>120</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>MCM Address (dec):</string>
+                </property>
+                <property name="alignment">
+                    <set>AlignVCenter|AlignLeft</set>
+                </property>
+            </widget>
+            <widget class="QLineEdit">
+                <property name="name">
+                    <cstring>McmAddrEdit</cstring>
+                </property>
+                <property name="enabled">
+                    <bool>false</bool>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>160</x>
+                        <y>150</y>
+                        <width>30</width>
+                        <height>23</height>
+                    </rect>
+                </property>
+                <property name="sizePolicy">
+                    <sizepolicy>
+                        <hsizetype>0</hsizetype>
+                        <vsizetype>0</vsizetype>
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                    </sizepolicy>
+                </property>
+                <property name="text">
+                    <string></string>
+                </property>
+                <property name="maxLength">
+                    <number>2</number>
+                </property>
+            </widget>
+        </widget>
+        <widget class="QWidget">
+            <property name="name">
+                <cstring>tab</cstring>
+            </property>
+            <attribute name="title">
+                <string>Pre-composed Commands</string>
+            </attribute>
+            <widget class="QGroupBox">
+                <property name="name">
+                    <cstring>groupBox3</cstring>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>11</x>
+                        <y>85</y>
+                        <width>234</width>
+                        <height>130</height>
+                    </rect>
+                </property>
+                <property name="title">
+                    <string>File parameters</string>
+                </property>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>FileRdLabel</cstring>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>8</x>
+                            <y>20</y>
+                            <width>90</width>
+                            <height>22</height>
+                        </rect>
+                    </property>
+                    <property name="text">
+                        <string>Read from file:</string>
+                    </property>
+                </widget>
+                <widget class="QLineEdit">
+                    <property name="name">
+                        <cstring>FileRdEdit</cstring>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>36</x>
+                            <y>40</y>
+                            <width>190</width>
+                            <height>23</height>
+                        </rect>
+                    </property>
+                </widget>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>FileWrLabel</cstring>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>8</x>
+                            <y>71</y>
+                            <width>74</width>
+                            <height>23</height>
+                        </rect>
+                    </property>
+                    <property name="text">
+                        <string>Write to file:</string>
+                    </property>
+                </widget>
+                <widget class="QLineEdit">
+                    <property name="name">
+                        <cstring>FileWrEdit</cstring>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>36</x>
+                            <y>91</y>
+                            <width>190</width>
+                            <height>23</height>
+                        </rect>
+                    </property>
+                </widget>
+            </widget>
+            <widget class="QPushButton">
+                <property name="name">
+                    <cstring>EnterButton</cstring>
+                </property>
+                <property name="enabled">
+                    <bool>true</bool>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>561</x>
+                        <y>98</y>
+                        <width>76</width>
+                        <height>30</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Enter</string>
+                </property>
+            </widget>
+            <widget class="QPushButton">
+                <property name="name">
+                    <cstring>StopButton2</cstring>
+                </property>
+                <property name="enabled">
+                    <bool>false</bool>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>561</x>
+                        <y>154</y>
+                        <width>76</width>
+                        <height>30</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Stop</string>
+                </property>
+            </widget>
+            <widget class="QComboBox">
+                <item>
+                    <property name="text">
+                        <string>File of file</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Data Monitoring</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>File Data</string>
+                    </property>
+                </item>
+                <property name="name">
+                    <cstring>ComboCmd</cstring>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>30</y>
+                        <width>190</width>
+                        <height>31</height>
+                    </rect>
+                </property>
+            </widget>
+            <widget class="QGroupBox">
+                <property name="name">
+                    <cstring>groupBox4</cstring>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>271</x>
+                        <y>45</y>
+                        <width>270</width>
+                        <height>170</height>
+                    </rect>
+                </property>
+                <property name="title">
+                    <string>Cmds parameters</string>
+                </property>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>AnlMaskLabel</cstring>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>12</x>
+                            <y>27</y>
+                            <width>236</width>
+                            <height>20</height>
+                        </rect>
+                    </property>
+                    <property name="text">
+                        <string>Analog Mask (xx xx xx xx xx xx xx xx):</string>
+                    </property>
+                    <property name="alignment">
+                        <set>AlignVCenter</set>
+                    </property>
+                </widget>
+                <widget class="QLineEdit">
+                    <property name="name">
+                        <cstring>AnMaskEdit2</cstring>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>32</x>
+                            <y>57</y>
+                            <width>210</width>
+                            <height>23</height>
+                        </rect>
+                    </property>
+                </widget>
+                <widget class="QLineEdit">
+                    <property name="name">
+                        <cstring>DelayEdit</cstring>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>156</x>
+                            <y>131</y>
+                            <width>90</width>
+                            <height>23</height>
+                        </rect>
+                    </property>
+                </widget>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>DelayLabel</cstring>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>21</x>
+                            <y>131</y>
+                            <width>114</width>
+                            <height>23</height>
+                        </rect>
+                    </property>
+                    <property name="text">
+                        <string>Delay (option, ms):</string>
+                    </property>
+                </widget>
+                <widget class="QLineEdit">
+                    <property name="name">
+                        <cstring>McmAddrEdit2</cstring>
+                    </property>
+                    <property name="enabled">
+                        <bool>false</bool>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>155</x>
+                            <y>100</y>
+                            <width>90</width>
+                            <height>23</height>
+                        </rect>
+                    </property>
+                </widget>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>McmAddrLabel</cstring>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>21</x>
+                            <y>102</y>
+                            <width>114</width>
+                            <height>23</height>
+                        </rect>
+                    </property>
+                    <property name="text">
+                        <string>MCM Address (dec):</string>
+                    </property>
+                </widget>
+            </widget>
+        </widget>
+    </widget>
+</widget>
+<toolbars>
+</toolbars>
+<connections>
+    <connection>
+        <sender>ClearListButton</sender>
+        <signal>clicked()</signal>
+        <receiver>mcmCOM</receiver>
+        <slot>ClearList()</slot>
+    </connection>
+    <connection>
+        <sender>StopButton</sender>
+        <signal>clicked()</signal>
+        <receiver>mcmCOM</receiver>
+        <slot>StopCmds()</slot>
+    </connection>
+    <connection>
+        <sender>ClearButton</sender>
+        <signal>clicked()</signal>
+        <receiver>mcmCOM</receiver>
+        <slot>ClearAns()</slot>
+    </connection>
+    <connection>
+        <sender>CmdAvaiList</sender>
+        <signal>clicked(QListBoxItem*)</signal>
+        <receiver>mcmCOM</receiver>
+        <slot>ProposeArg()</slot>
+    </connection>
+    <connection>
+        <sender>OpenButton</sender>
+        <signal>clicked()</signal>
+        <receiver>mcmCOM</receiver>
+        <slot>SerialConnection()</slot>
+    </connection>
+    <connection>
+        <sender>RemoveButton</sender>
+        <signal>clicked()</signal>
+        <receiver>mcmCOM</receiver>
+        <slot>RmCommand()</slot>
+    </connection>
+    <connection>
+        <sender>InsertButton</sender>
+        <signal>clicked()</signal>
+        <receiver>mcmCOM</receiver>
+        <slot>GetCommand()</slot>
+    </connection>
+    <connection>
+        <sender>CloseButton</sender>
+        <signal>clicked()</signal>
+        <receiver>mcmCOM</receiver>
+        <slot>SerialDisconnection()</slot>
+    </connection>
+    <connection>
+        <sender>WriteButton</sender>
+        <signal>clicked()</signal>
+        <receiver>mcmCOM</receiver>
+        <slot>WriteBuf()</slot>
+    </connection>
+    <connection>
+        <sender>ExitButton</sender>
+        <signal>clicked()</signal>
+        <receiver>mcmCOM</receiver>
+        <slot>Exitfinal()</slot>
+    </connection>
+    <connection>
+        <sender>ComboCmd</sender>
+        <signal>activated(int)</signal>
+        <receiver>mcmCOM</receiver>
+        <slot>AskCmdListArg()</slot>
+    </connection>
+    <connection>
+        <sender>EnterButton</sender>
+        <signal>clicked()</signal>
+        <receiver>mcmCOM</receiver>
+        <slot>ExecFileCmd()</slot>
+    </connection>
+    <connection>
+        <sender>StopButton2</sender>
+        <signal>clicked()</signal>
+        <receiver>mcmCOM</receiver>
+        <slot>StopCmds()</slot>
+    </connection>
+    <connection>
+        <sender>PollButton</sender>
+        <signal>clicked()</signal>
+        <receiver>mcmCOM</receiver>
+        <slot>McmPoll()</slot>
+    </connection>
+</connections>
+<tabstops>
+    <tabstop>OpenButton</tabstop>
+    <tabstop>CloseButton</tabstop>
+    <tabstop>CmdAvaiList</tabstop>
+    <tabstop>McmAddrEdit</tabstop>
+    <tabstop>Argument1</tabstop>
+    <tabstop>InsertButton</tabstop>
+    <tabstop>WriteButton</tabstop>
+    <tabstop>StopButton</tabstop>
+    <tabstop>ComboCmd</tabstop>
+    <tabstop>FileRdEdit</tabstop>
+    <tabstop>FileWrEdit</tabstop>
+    <tabstop>AnMaskEdit2</tabstop>
+    <tabstop>DelayEdit</tabstop>
+    <tabstop>EnterButton</tabstop>
+    <tabstop>ExitButton</tabstop>
+    <tabstop>CmdTab</tabstop>
+    <tabstop>CmdList</tabstop>
+    <tabstop>RepeatButton</tabstop>
+    <tabstop>RemoveButton</tabstop>
+    <tabstop>ClearListButton</tabstop>
+    <tabstop>McmAddrEdit2</tabstop>
+    <tabstop>CmdRxEdit</tabstop>
+    <tabstop>DigMaskEdit</tabstop>
+    <tabstop>AnMaskEdit</tabstop>
+    <tabstop>DisplayButton</tabstop>
+    <tabstop>CmdSttusEdit</tabstop>
+    <tabstop>McmAddr2Edit</tabstop>
+    <tabstop>ModEdit</tabstop>
+    <tabstop>VersEdit</tabstop>
+    <tabstop>ClearButton</tabstop>
+    <tabstop>AvgfactEdit</tabstop>
+    <tabstop>CountEdit</tabstop>
+    <tabstop>DDEdit</tabstop>
+    <tabstop>DelayEdit1</tabstop>
+    <tabstop>StopButton2</tabstop>
+</tabstops>
+<includes>
+    <include location="local" impldecl="in declaration">decode.h</include>
+    <include location="local" impldecl="in declaration">exec.h</include>
+    <include location="local" impldecl="in declaration">cfile.h</include>
+    <include location="local" impldecl="in implementation">mcmCom.ui.h</include>
+</includes>
+<variables>
+    <variable access="private">int stopped;</variable>
+    <variable access="private">Connection SerialCon;</variable>
+    <variable access="private">int CmdIndx;</variable>
+    <variable access="private">Command* CommandArray[20];</variable>
+    <variable access="private">ComExec Onecom;</variable>
+    <variable access="private">Decode Onedecode;</variable>
+</variables>
+<slots>
+    <slot>GetCommand()</slot>
+    <slot>RmCommand()</slot>
+    <slot>ClearList()</slot>
+    <slot>DisplayAll( Decode * dec )</slot>
+    <slot>ClearAns()</slot>
+    <slot>SerialConnection()</slot>
+    <slot>SerialDisconnection()</slot>
+    <slot>McmPoll()</slot>
+    <slot>WriteBuf()</slot>
+    <slot>StopCmds()</slot>
+    <slot>Exitfinal()</slot>
+    <slot>ProposeArg()</slot>
+    <slot>AskCmdListArg()</slot>
+    <slot>ExecFileCmd()</slot>
+</slots>
+<functions>
+    <function access="private">setCmdArgument( Command * CmdTx )</function>
+    <function access="private">DisplayRes( Decode * dec, int delay )</function>
+    <function access="private">ErrorMessage()</function>
+    <function access="private" returnType="int">OneTxRx( Command Cmd, int delay )</function>
+    <function access="private" returnType="int">FofQt( char * filerd, char * filewrt, int delay, char AnlMask[8] )</function>
+    <function access="private">DataMonQt( char * filewrt, int delay, char * Arguments )</function>
+    <function access="private" returnType="int">FileData( char * filerd, int delay )</function>
+</functions>
+<pixmapinproject/>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

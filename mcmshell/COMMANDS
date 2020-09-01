@@ -1,0 +1,30 @@
+MCMCOM COMMAND LIST:
+
+Number	Function		Arguments (bytes)
+
+0	Set MCM Address    	1 
+1	Null cmd
+2	Set Idle Mode
+3	Set Scan Mode
+4	Set Mean Mode		1
+5	Set Anl Mask		8
+6	Set Dig Mask 16b	2
+7	Set Dig Mask 32b	4
+8	Set Dig Mask 64b	8
+9	Read Anl Mask
+10	Read Dig Mask 16b
+11	Read Dig Mask 32b
+12	Read Dig Mask 64b
+13	Read Version
+14	Read Mode
+15	Reboot
+16	Feed Mcm (old)		1
+17	Feed Mcm (new)		2
+18	Fe Box monitor		1
+19	Common Box monitor
+20	Exit
+21	File of File		...
+22	Data Monitoring		...
+23	File Data		...
+
+

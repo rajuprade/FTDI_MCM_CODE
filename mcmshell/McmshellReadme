@@ -1,0 +1,30 @@
+************************************************************************************
+*
+* ReadMe file for mcmshell installation
+* Laurent Pommier, 23/03/2006
+*
+************************************************************************************
+
+Mcmshell program is documented in mcmcom.sxw report. 
+This ReadMe file details the installation of mcmshell program under a Linux PC.
+
+
+PREVIOUS REQUIREMENTS
+- A RS 232-485 converter card must be connected on the PC serial port.
+- mcmdriver must be loaded on the proper serial port.
+
+
+INSTALLATION
+- make a directory mcmshell/
+- copy the source code in mcmshell
+- compile the code with make, mcmcom_shell executable is created
+- copy mcmcom_shell in /usr/bin/ and change its permissions with
+	chmod u+s /usr/bin/mcmcom_shell
+After this, any user can call this program with mcmcom_shell command.
+
+
+NOTE:
+- no modification is required between Kernel versions
+*************************************************************************************
+ 
+
